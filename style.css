@@ -1,92 +1,111 @@
 * {
-    margin: 0%;
-    padding: 0%;
-    font-family: 'Manjari', sans-serif;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Manjari", sans-serif;
 }
+
+/*header*/
 nav {
-    position: fixed;
-    background-color: rgb(28, 50, 83);
-    width: 100%;
-    
+  position: fixed;
+  background-color: rgb(28, 50, 83);
+  width: 100%;
 }
 nav ul {
-    margin: 0 10px 0px 400px;
-    min-height: 70px;
-    height: 100%;
-    padding-top: 30px;
+  margin: 0 10px 0px 400px;
+  min-height: 70px;
+  height: 100%;
+  padding-top: 30px;
 }
 nav ul li {
-    display: inline-block;
-    padding: 0px 20px;
-    
-    
-    
+  display: inline-block;
+  padding: 0px 20px;
 }
 .local-bar {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    z-index: 2;
-    position: absolute;
-    text-align: center;
-    padding: 3px;
-    
+  background-color: rgba(0, 0, 0, 0.356);
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  text-align: center;
+  padding: 3px;
 }
-img .ico {
-    
-}
+
 .local-bar a {
-    color: aliceblue;
-    text-decoration: none;
-    font-style: italic;
-    font-size: 15px;
-    
+  color: aliceblue;
+  text-decoration: none;
+  font-style: italic;
+  font-size: 15px;
 }
 .cont-b {
-    
-    background-color: rgb(28, 50, 83);
-    
+  background-color: rgb(28, 50, 83);
 }
 .arv {
-    padding: 0px 30px;
+  padding: 0px 30px;
 }
 nav ul li a {
-    text-decoration: none;
-    color: rgb(238, 171, 48);
-    
-    
-    
+  text-decoration: none;
+  color: rgb(238, 171, 48);
 }
+/*header*/
+
+
+
+/*main*/
 .salao {
-    width: 100%;
-    margin-top: 100px;
-    
+  width: 100%;
+  margin-top: 100px;
 }
 .img {
-    width: 230px;
-    position: absolute;
-    margin-left: 100px;
-    margin-top: 10px;
-    
+  width: 230px;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 10px;
 }
+
+.ambi {
+    width: 40%;
+}
+.gast {
+    font-size: 30px;
+}
+
+
+main h1 {
+  color: rgb(28, 50, 83);
+  font-size: 40px;
+  padding: 180px 40px 20px 60px;
+  font-weight: 300;
+
+}
+main h2 {
+    padding: 20px 60px;
+    width: 45%;
+    font-weight: 200;
+}
+main h3 {
+    padding: 20px 60px 100px;
+    width: 45%;
+    font-weight: 100;
+}
+/*main*/
+
+/*footer*/
 .reserva {
-    padding: 20px 70px 12px;
-    background-color: rgb(238, 171, 48);
-    color: rgb(28, 50, 83);
-    text-decoration: none;
-    bottom: 0px;
-    right: 70px;
-    position: fixed;
-    font-size: 25px;
-    z-index: 1;
-
-    
-
-}   
-.footer {
-    position: static;
-    padding: 50px 0 ;
-    width: 100%;
-    background-color: rgb(28, 50, 83);
-    bottom: 0;
-    
+  padding: 20px 70px 12px;
+  background-color: rgb(238, 171, 48);
+  color: rgb(28, 50, 83);
+  text-decoration: none;
+  bottom: 0px;
+  right: 70px;
+  position: fixed;
+  font-size: 25px;
+  z-index: 1;
 }
+.footer {
+  position: static;
+  padding: 50px 0;
+  width: 100%;
+  background-color: rgb(28, 50, 83);
+  bottom: 0;
+  height: 150px;
+}
+/*footer*/
