@@ -1,0 +1,62 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Manjari', sans-serif;
+}
+nav ul {
+    margin: 0 10px 30px 400px;
+    min-height: 70px;
+    height: 100%;
+    padding-top: 30px;
+}
+nav ul li {
+    display: inline-block;
+    padding: 0px 20px;
+    
+    
+    
+}
+.cont-b {
+    
+    background-color: rgb(28, 50, 83);
+    
+}
+.arv {
+    padding: 0px 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(238, 171, 48);
+    
+    
+    
+}
+img {
+    width: 230px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 10px;
+    
+}
+.reserva {
+    padding: 20px 70px 12px;
+    background-color: rgb(238, 171, 48);
+    color: rgb(28, 50, 83);
+    text-decoration: none;
+    bottom: 0px;
+    right: 70px;
+    position: fixed;
+    font-size: 25px;
+    z-index: 1;
+
+    
+
+}   
+.footer {
+    position: static;
+    padding: 50px 0 ;
+    width: 100%;
+    background-color: rgb(28, 50, 83);
+    bottom: 0;
+    
+}
