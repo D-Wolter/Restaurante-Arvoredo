@@ -64,15 +64,13 @@ main {
   margin-top: 22px;
 }
 
-.ambi {
-    width: 40%;
-}
+
 .gast {
     font-size: 30px;
 }
 
 article {
-    width: 50%;
+    max-width: 760px;
 }
 main h1 {
   color: rgb(28, 50, 83);
@@ -93,22 +91,19 @@ main h3 {
     font-weight: 100;
 }
 aside {
-   
-    margin: 110px 100px 0 0;
-    
+   margin: auto;
+    margin: 110px 120px 0 30px;
+    max-width: 75%;
     float: right;
     
 }
-.bar {
 
-    height: 700px;
-}
 /*main*/
 
 /*footer*/
 .reserva {
   padding: 20px 70px 12px;
-  background-color: rgb(238, 171, 48);
+  background-image: linear-gradient( to top left, rgb(233, 125, 23), rgb(255, 203, 61) );
   color: rgb(28, 50, 83);
   text-decoration: none;
   bottom: 0px;
@@ -124,5 +119,22 @@ aside {
   background-color: rgb(28, 50, 83);
   bottom: 0;
   height: 150px;
+}
+.imgF {
+  width: 230px;
+  position: relative;
+  float: right;
+  margin-top: 22px;
+  margin-right: 100px;
+
+}
+footer p {
+  
+  position: relative;
+  float: right;
+  right: -210px;
+  top: 90px;
+  font-size: 13px;
+  color: rgba(238, 171, 48, 0.589);
 }
 /*footer*/
