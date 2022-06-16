@@ -51,7 +51,9 @@ nav ul li a {
 
 /*main*/
 main {
-    min-height: 2000px;
+    min-height: auto;
+    margin-bottom: 300px;
+    
 }
 .salao {
   width: 100%;
@@ -64,13 +66,18 @@ main {
   margin-top: 22px;
 }
 
-
+.bar {
+  width: 90%;
+  
+  
+}
 .gast {
     font-size: 30px;
 }
 
 article {
     max-width: 760px;
+    margin: 10px 30px 10px 10%;
 }
 main h1 {
   color: rgb(28, 50, 83);
