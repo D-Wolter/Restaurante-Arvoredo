@@ -34,6 +34,7 @@ nav ul li {
   text-decoration: none;
   font-style: italic;
   font-size: 15px;
+  margin: 1px 50px;
 }
 .cont-b {
   background-color: rgb(28, 50, 83);
