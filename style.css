@@ -5,7 +5,7 @@
 }
 
 /*header*/
-nav {
+.navH {
   position: fixed;
   background-color: rgb(28, 50, 83);
   width: 100%;
@@ -135,7 +135,7 @@ aside {
   margin-right: 100px;
 
 }
-footer p {
+footer .direitos {
   
   position: relative;
   float: right;
@@ -144,4 +144,12 @@ footer p {
   font-size: 13px;
   color: rgba(238, 171, 48, 0.589);
 }
+.end {
+  padding: 20px;
+  color: rgba(238, 171, 48, 0.589);
+}
+.menuF {
+  margin-left: 10%;
+}
+
 /*footer*/
