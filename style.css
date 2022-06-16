@@ -188,7 +188,7 @@ aside {
   width: 100%;
   background-color: rgb(28, 50, 83);
   bottom: 0;
-  height: 150px;
+  height: 250px;
 }
 .imgF {
   width: 230px;
@@ -208,11 +208,12 @@ footer .direitos {
   color: rgba(238, 171, 48, 0.589);
 }
 .end {
-  padding: 20px;
+  padding: 15px;
   color: rgba(238, 171, 48, 0.589);
 }
 .menuF {
   margin-left: 10%;
+  
 }
 
 /*footer*/
