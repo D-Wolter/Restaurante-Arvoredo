@@ -169,6 +169,12 @@ aside {
   margin: 20px 40px;
   padding: 20px;
 }
+main article button {
+  margin-left: 20%;
+  padding: 20px 40px;
+  background-image: linear-gradient( to top left, rgb(233, 125, 23), rgb(255, 203, 61) );
+  border: 0;
+}
 /*main*/
 
 /*footer*/
