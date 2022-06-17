@@ -36,6 +36,13 @@ nav ul li {
   font-size: 15px;
   margin: 1px 50px;
 }
+.local-bar audio {
+  color: aliceblue;
+  text-decoration: none;
+  font-style: italic;
+  font-size: 15px;
+  margin: 1px 50px;
+}
 .cont-b {
   background-color: rgb(28, 50, 83);
 }
@@ -55,6 +62,11 @@ main {
     min-height: auto;
     margin-bottom: 300px;
     
+}
+audio {
+  position: fixed;
+  right: 50px;
+  top: 170px;
 }
 .salao {
   width: 100%;
